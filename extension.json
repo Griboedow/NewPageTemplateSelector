@@ -31,9 +31,6 @@
 		"ext.NewPageTemplateSelector": {	
 			"localBasePath": "modules/ext.NewPageTemplateSelector",
 			"remoteExtPath": "NewPageTemplateSelector/modules/ext.NewPageTemplateSelector",
-			"scripts": [
-				"ext.NewPageTemplateSelector.js"
-			],
 			"styles": [
 				"ext.NewPageTemplateSelector.css"
 			]
