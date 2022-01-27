@@ -74,6 +74,7 @@ class NewPageTemplateSelectorHooks {
 				'classes' => [ 
 					'cpnf_pagename' 
 				],
+				'required' => true,
 			] ),
 			[
 				'align' => 'left',
