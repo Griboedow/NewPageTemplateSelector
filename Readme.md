@@ -2,7 +2,10 @@ MediaWiki extension NewPageTemplateSelector is similar to InpuBox::create but al
 
 Usage: 
 ```html
- <NewPageTemplateSelector templates="Empty article, Article about a feature,Article about a product" placeholder="Please enter a page name"/>
+ <NewPageTemplateSelector 
+                          templates="Empty article, Article about a feature,Article about a product" 
+                          placeholder="Please enter a page name"
+/>
 ```
 
 ![Capture](https://user-images.githubusercontent.com/4194526/151410211-89f46d73-8bd8-4cac-8fed-916a5cf0ad3f.PNG)
