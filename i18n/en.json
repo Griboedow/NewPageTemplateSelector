@@ -1,8 +1,6 @@
 {
 	"@metadata": {
-		"authors": [ "Nikolai Kochkin" ]
+		"authors": [ "[https://www.mediawiki.org/wiki/User:Urfiner Urfiner]" ]
 	},
-	"googleknowledgegraph-description": "The extension gets brief description from Google Knowledge Graph",
-	"apihelp-askgoogleknowledgegraph-summary" : "API to get description from Google Knowledge Graph",
-	"apihelp-askgoogleknowledgegraph-param-query": "String to ask from Google Knowledge Graph"
+	"googleknowledgegraph-description": "The NewPageTemplateSelector extension provides a tag to insert 'create page' input box with a dropdown of templates to preload",
 }
