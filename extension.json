@@ -5,7 +5,7 @@
 		"[https://www.mediawiki.org/wiki/User:Urfiner Urfiner]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:NewPageTemplateSelector",
-	"descriptionmsg": "NewPageTemplateSelector-description",
+	"descriptionmsg": "newpagetemplateselector-description",
 	"license-name": "MIT",
 	"type": "parserhook",
 	"requires": {
