@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": [ "[https://www.mediawiki.org/wiki/User:Urfiner Urfiner]" ]
 	},
-	"googleknowledgegraph-description": "NewPageTemplateSelector добавляет на страницу поле создание новых страниц с возможностью выбора шаблона создаваемой страницы"
+	"newpagetemplateselector-description": "NewPageTemplateSelector добавляет на страницу поле создание новых страниц с возможностью выбора шаблона создаваемой страницы"
 }
