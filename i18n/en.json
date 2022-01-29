@@ -2,5 +2,5 @@
 	"@metadata": {
 		"authors": [ "[https://www.mediawiki.org/wiki/User:Urfiner Urfiner]" ]
 	},
-	"googleknowledgegraph-description": "The NewPageTemplateSelector extension provides a tag to insert 'create page' input box with a dropdown of templates to preload",
+	"googleknowledgegraph-description": "The NewPageTemplateSelector extension provides a tag to insert 'create page' input box with a dropdown of templates to preload"
 }
