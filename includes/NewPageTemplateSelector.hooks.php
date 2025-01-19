@@ -4,21 +4,6 @@
  * Hooks used by NewPageTemplateSelector extension 
  */
 class NewPageTemplateSelectorHooks {
-
-	/**
-	 * The hook will be runned after parsing is done but before html is added to a page output.
-	 * Details are here: https://www.mediawiki.org/wiki/Manual:Hooks/OutputPageParserOutput
-	 */
-	public static function onBeforeHtmlAddedToOutput( OutputPage &$out, ParserOutput $parserOutput ) {
-		/**
-		 * This is the perfect place to load our frontend.
-		 * The frontend module 'ext.NewPageTemplateSelector' is defined in extension.json
-		 */ 
-		$out->addModules( 'ext.NewPageTemplateSelector' );
-		return true;
-	}
-
-	
 	/**
 	 * We extend parser here.
 	 * Parser will process our custom tag: <NewPageTemplateSelectorHooks>
@@ -62,6 +47,7 @@ class NewPageTemplateSelectorHooks {
 		}
 		
 		$out = $parser->getOutput();
+		$out->addModules( ['ext.NewPageTemplateSelector'] );
 		OutputPage::setupOOUI();
 		$out->setEnableOOUI( true );
 
