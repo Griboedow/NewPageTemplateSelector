@@ -1,4 +1,4 @@
-MediaWiki extension NewPageTemplateSelector is similar to InpuBox::create but allows to specify list of templates to choose
+[MediaWiki extension NewPageTemplateSelector](https://www.mediawiki.org/wiki/Extension:NewPageTemplateSelector) is similar to InpuBox::create but allows to specify list of templates to choose
 
 Usage: 
 ```html
